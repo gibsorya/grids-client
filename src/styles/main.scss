@@ -1,0 +1,19 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+$background: #191D24;
+
+html, body {
+    background-color: $background;
+    height: 100%;
+    margin: 0;
+}
+
+.btn-flat {
+    background-color: #d73340;
+    color: white;
+
+    &:hover {
+        background-color: #af2531;
+        color: white;
+    }
+}
